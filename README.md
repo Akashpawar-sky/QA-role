@@ -1,30 +1,20 @@
-# QA Practice Spring Boot Application
+# QA Testing Practice - Spring Boot
 
-A deliberately small Spring Boot application for practicing QA engineering.
+A simple Spring Boot application created for learning QA engineering.
 
-## Learning areas
-- Functional testing
-- Test case design
-- Positive/negative testing
-- Boundary value analysis
-- API testing with Postman
-- SQL/database validation
-- Bug reporting
-- Regression testing
-- JUnit/Mockito basics
-- Selenium automation (Phase 2)
-- REST Assured API automation (Phase 3)
+## Tech Stack
+- Java 17
+- Spring Boot 3.3.5
+- Spring Web
+- Spring Data JPA
+- H2 Database
+- Maven
+- Eclipse
+- Postman
 
-## Domain
-Simple Product Management API with:
-- Create product
-- Get all products
-- Get product by ID
-- Update product
-- Delete product
-- Search products
-- Validation and error handling
+## API
+POST `/users`
+GET `/users`
+GET `/users/{id}`
 
-## Eclipse
-Import as an existing Maven project:
-File -> Import -> Maven -> Existing Maven Projects
+Start the application and test these APIs using Postman.
